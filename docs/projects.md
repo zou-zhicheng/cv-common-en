@@ -5,10 +5,10 @@ hide:
 --- -->
 
 # [SONY](https://www.sony-semicon.com/en/index.html)
-### Project Overview
+### Overview
 [AITRIOS](https://www.aitrios.sony-semicon.com/) is an innovative solution from [Sony Semiconductor](https://www.sony-semicon.com/index.html) that leverages Edge Vision AI, IoT, and Cloud technologies to build a revolutionary ecosystem centered around Sony cameras.
 
-### Key Responsibilities
+### Responsibilities
 As the sole Staff Cloud Engineer for Sony Semiconductor in China, my primary responsibilities included:
 #### 1. System Integration
 - Introduced [AITRIOS](https://www.aitrios.sony-semicon.com/) solution from Japan to China:
@@ -37,90 +37,179 @@ As the sole Staff Cloud Engineer for Sony Semiconductor in China, my primary res
 - Received annual commendations from global leadership.
 
 ### Tech Stack
-- Azure Cloud, Azure Functions, IoT Hub, CosmosDB, AKS, Key Vault
-- Alibaba Cloud
-- ARM / Ansible / Terraform
-- FastAPI / Django
-- Angular 16/18 / Vue3 / Element UI / Playwright
-- Java / ThingsBoard
-- SQL Server / MySQL / PostgreSQL / CosmosDB
+  - Cloud: Azure, Alibaba Cloud, Docker, K8S ...
+  - Development: Python, FastAPI, Django, TypeScript, HTML3, CSS3, Angular, Vue, Java
+  - IaC: ARM, Ansible, Terraform
+  - IoT: Azure IoT Hub, ThingsBoard
+  - Data: SQL Server, MySQL, PostgreSQL, CosmosDB, MongoDB, Kafka, Cassandra, InfluxDB
 
 ---
 
-# [Creditease](https://www.creditease.com/)
+# [CreditEase](https://www.creditease.com/)
 When I joined Creditease in 2016, my target is to develop a financial cloud platform based on OpenStack. 
 After organizational changes in 2017, shifted focus to traditional IT operations, leading infrastructure integration and tool development to stabilize systems.
 
 ## CMDB System (Elephant)
-Developed a CMDB system from scratch to replace manual Excel-based management:
-- Features: IDC management (servers, VMs, network devices), workplace management, contract/cost tracking, and lifecycle automation.
-- **Tech Stack**: Python/Django/Celery, Vue2/ECharts, Ansible.
+### Overview
+Around 2017, Creditease relied on manual processes and Excel spreadsheets for infrastructure management, resulting in severe information silos and inefficiencies. There was an urgent need for a CMDB system to centralize IT infrastructure management, improve operational efficiency, reduce risks, and support enterprise IT operations.。    
+### Features
+- IDC Resource Lifecycle Management: Servers, virtual machines, storage devices, security appliances, spare parts, network segments, network circuits, domain names, DNS, etc.
+- Software Lifecycle Management: Tracking and governance for software assets.
+- Workplace Information Management: Centralized management of office locations and resources..
+- Contract Management: Vendor contracts, SLAs, and compliance tracking.
+- Cost Management: Cost allocation, settlement, and financial optimization.
+- Duty Scheduling System: Automated shift planning and incident escalation.
+- ...
+### Responsibilities
+Collaborated with cross-functional teams (IDC operations, networking, procurement, finance) to design and develop a CMDB system from scratch. Leveraged ITSM/ITIL best practices and industry references to:
+- Define unified data models and workflows for infrastructure assets.
+- Automate resource discovery, inventory tracking, and lifecycle operations.
+- Integrate with existing tools to break down information silos.
+- Enable cost transparency and compliance across departments.
+### Tech Stack
+Python, Django, Celery, JQuery, Vue2, ECharts, Ansible ...
 
 ## Network-wide Monitoring System (Eagle)
-- Monitored 1,000+ workplaces nationwide using Raspberry Pi nodes and cloud probes.
-- Integrated Elasticsearch, Grafana, and ECharts for real-time dashboards.
-- **Tech Stack**: Python/Scrapy, Vue/Selenium, Prometheus/Elasticsearch.
-
-## Database Ops System (DBAnt)
-- Unified management of the life cycle of 2000+ production databases (Oracle/MySQL/Redis).
-- The design process takes over all data query, publication and export.
-- Designed pluggable encryption and decryption system to ensure database security, and provided apis, clients, etc., for all data queries of the company.
-- Visual interface Invokes ansible for database installation, deployment, backup, and recovery.
-- Use ES for logging and slow log collection, analysis, and suggestions for database optimization.
-- Prometheus, AlertManager, Grafana Monitor, alert, display, analyze.
-- Meet Deloitte's internal audit needs.
+### Overview
+A comprehensive monitoring system was required to ensure service stability and operational reliability across all infrastructure resources.   
+### Features
+- Data Collection & Storage: Collected server, VM, and network device metrics, stored in ElasticSearch. 
+- Visualization: Real-time dashboards built with Grafana and ECharts for system-wide visibility.  
+- Alerting Engine: Custom rules for proactive incident detection and escalation.  
+- **Workplace Monitoring**:  高Deployed Raspberry Pi terminals across 1,000+ nationwide offices to monitor network health, enabling rapid fault localization and troubleshooting.
+- **Network Check**
+  - Extended workplace monitoring by deploying nodes across major cloud providers, achieving APM (Application Performance Monitoring) capabilities comparable to [TingYun](https://www.tingyun.com/).
+  - Conducted exploratory commercialization efforts for the solution. 
+### Responsibilities
+Designed and developed the entire monitoring system from scratch, including:
+- Architecture design for scalable data ingestion and storage.
+- Integration of open-source tools (ElasticSearch, Grafana) with custom modules.
+- Deployment automation for Raspberry Pi-based monitoring terminals.
+- Cross-cloud node orchestration to enable unified performance insights.
 ### Tech Stack
-  - Python / Django / Celery / RabbitMQ / Vue / Ansible / Prometheus / ElasticSearch / Grafana / Echarts
+Python, Django, Scrapy, Vue, Selenium, Prometheus, ElasticSearch, Grafana, Echarts, IPMI ...
 
-## K8S-based PaaS Platform (Spider)
-Creditease began to develop a private cloud based on K8S internally in 2018, which was initially handled by other departments and later merged into the Infrastructure department. With the staff adjustment, I took over part of the development and operation and maintenance work.
-- Fix bugs and maintain server cluster stability.
-- Connect data in the CMDB(Elephant) and monitoring system(Eagle) to the Spider platform.
-- Cooperate with and respond to the internal system on the cloud (the original system K8S, microservice) and under the cloud (part of the application services from the public cloud to the private cloud to reduce costs) requirements.
+## Database Operations Tool (DBAnt)
+### Overview
+DBAnt is a unified database operations tool designed for DBAs and data users to streamline database management and security.
+### Features
+- Unified Lifecycle Management: Managed 2,000+ production databases (Oracle/MySQL/Redis) across their lifecycle.
+- Automated Workflows: Controlled all data queries, deployments, and exports through standardized processes. 
+- Security Framework:
+  - Built a pluggable encryption/decryption system to secure sensitive data.
+  - Provided APIs and clients for secure data access across the organization.
+- Infrastructure Automation:
+  - Visual interface for database installation, deployment, backups, and recovery using Ansible.
+  - Slow query log collection to Elasticsearch and analysis them to optimize performance.
+- Monitoring & Compliance:
+  - Dashboard visualization with ECharts and Grafana for real-time insights.
+  - Met Deloitte internal audit requirements for data governance.
+### Responsibilities
+Independently designed, architected, and developed the entire system from scratch.
 ### Tech Stack
-  - Go / Gin
-  - Java / Spring / Spring Cloud ...
+Django, Celery, Vue, Ansible, Prometheus, Elasticsearch, Grafana, ECharts, etc.
 
-## Middleware Operations
-Managed Kafka, RocketMQ, Elasticsearch, and microservices components.
+## Kubernetes-based PaaS Platform (Spider)
+### Overview
+In 2018, Creditease initiated the development of an internal Kubernetes-based private cloud. Initially managed by another team, the project was later merged into the Infrastructure Department. Following organizational adjustments, I took over part of its development and operations.
+### Responsibilities
+- Stability & Maintenance: Debugged critical issues and ensured cluster stability.
+- Data Integration: Connected the PaaS platform with CMDB (Spider) and monitoring system (Eagle) for unified data visibility.
+- Cloud Migration Strategy:
+  - Cloud Adoption: Modernized legacy systems via Kubernetes migration and microservices transformation.
+  - Cloud Repatriation: Migrated select applications from public cloud to private cloud to reduce costs.
+- ...
+### Tech Stack
+Go, Gin, Java, Spring, Spring Cloud ...
 
+## Traditional Middleware Operations
+### Overview
+Following workforce reductions and the centralization of infrastructure management at Creditease, operational responsibility for critical middleware components was transferred to the infrastructure team.
+### Responsibilities
+- Core Operations: Performed foundational tasks such as cluster provisioning, stability assurance, and scaling (up/down).
+- System Prototyping: Designed a lightweight prototype for unified middleware management, but the system was not finalized or deployed due to organizational changes prior to my departure.
+Middleware Scope:
+- Message Queues & Streaming: Kafka, RocketMQ, RabbitMQ and etc.
+- Elasticsearch.
+- Microservices Components: Service discovery, API gateways, etc.  
+### Tech Stack   
+Ansible, Python, Shell
 ---
 
-# [IBM](https://www.ibm.com/cn-zh)
+# [IBM](https://www.ibm.com/us-en)
 ## Smart Cloud Orchestrator (SCO)
-- Deployed and integrated OpenStack with IBM tools (ZVM, DB2) for hybrid cloud solutions.
-- **Tech Stack**: Python/Django, Ansible/Chef.
+### Overview
+SCO is an IBM-developed hybrid cloud solution built on OpenStack.
+### Responsibilities
+- **Installation**:  Packaged SCO modules into deployable product bundles using Ansible, Chef, and Bash, followed by rigorous validation.
+- **Integration**: 
+  - Merged OpenStack source code with custom-developed extensions.
+  - Integrated IBM internal tools (ZVM, DB2, WebSphere) and third-party platforms (VMware).
+- **Development**: Develop Dashboard and Nova components.
+### Tech Stack
+Python, Django, Ansible, Chef, Shell ...
 
 ## LinuxONE
-- Migrated OpenStack to IBM System Z mainframes.
-- **Tech Stack**: OpenStack, Django, SSH (Struts/Spring/Hibernate).
+### Overview
+After the dissolution of the SCO China team, I joined the [LinuxONE](https://www.ibm.com/cn-zh/linuxone) team at IBM. LinuxONE aimed to build a cloud ecosystem combining standard Linux and OpenStack on IBM System z mainframes.
+### Responsibilities
+- OpenStack Migration: Ported OpenStack to IBM System z, enabling mainframes to leverage Linux and OpenStack ecosystems.
+- Software Modernization: Collaborated with cross-functional teams to migrate IBM software (e.g., SPSS, DB2) to the LinuxONE platform.
+- Ecosystem Visibility: Developed a web portal to showcase LinuxONE’s capabilities and integrations.
+### Tech Stack
+OpenStack, Django, Ansible, Chef, Java, SSH Stack (Struts, Spring, Hibernate) ... 
 
 ---
 
-# [Atos](https://atos.net/en/)
+# [ATOS](https://atos.net/en/)
 ## Smart Grid System
-- Developed ERDF's Linky smart grid project (35M+ smart meters).
-- Led integration for Southern Power Grid (Shenzhen) POC.
-- **Tech Stack**: JavaEE, OSGi, Weblogic.
+### Overview
+The ATOS Smart Grid Suite (ASGS) aimed to build a resilient, flexible, self-healing, and scalable next-generation smart grid system for ERDF(Electricité Réseau Distribution France) Linky project. As Europe’s largest smart grid initiative, the system supported 35 million smart meters and 700,000 data concentrators. Based on SOA principles and a classic JavaEE architecture, it provided a core Service Bus for external systems.
+### Responsibilities
+- Core Module Development: Stationed in Grenoble, France, collaborated with local teams to design and implement critical system components.
+- System Integration: Validated end-to-end integration across smart meters, backend systems, and servers.
+- Localization for China: Partnered with ZTE to establish a joint venture, delivering 3-phase POC projects for Southern Power Grid (Shenzhen), including localized adaptations and integrations.
+### Tech Stack
+Java, JavaEE, OSGi, Weblogic Service Bus ...
 
 ---
 
-# [Cienet](https://www.cienet.com/zh-hans)
+# [CIeNET](https://www.cienet.com/)
 ## Product Catalog
-- Built metadata management tools for telecom systems (Amdocs/Comverse).
-- **Tech Stack**: Java Swing.
+### Overview
+Comverse (now part of [Amdocs](https://www.amdocs.com/)), a globally telecommunications support software provider, maintained numerous telecom BSS/OSS systems worldwide. These systems required nearly identical metadata for seamless interoperability. The Product Catalog served as a centralized tool for unified metadata maintenance, management, and distribution across all platforms.
+### Responsibilities
+Java Developer
+### Tech Stack
+Java Swing ...
 
 ---
 
-# [Datang Telecom](https://www.datang.com/)
-## Billing System Modernization
-- Migrated legacy C/S systems to B/S architecture.
-- **Tech Stack**: Java/J2EE, Weblogic.
+# [Datang](https://www.datang.com/)
+## Next Generation Billing System
+### Overview
+The next-generation provincial billing system for Datang Software, transitioning from a C/S (Client-Server) to B/S (Browser-Server) architecture.
+### Responsibilities
+Java Development
+### Tech Stack
+Java, Struts, J2EE, WebLogic ...
 
 ## Business Intelligence Systems
-- Developed Hyperion-based analytics for Inner Mongolia Unicom.
-- **Tech Stack**: Hyperion, Oracle, Bash.
+### Overview
+A Hyperion-based business intelligence solution was deployed for China Unicom (formerly Netcom) in Chifeng and Baotou, Inner Mongolia. This operational analytics system integrated diverse data sources through ETL scripting, generated business intelligence reports, and provided critical insights for enterprise decision-making.
+### Responsibilities
+- Served as core developer during the Chifeng phase.
+- Promoted to project lead for the Baotou implementation.
+### Tech Stack
+Hyperion, JavaScript, Oracle, Shell ...
 
 ## Liaoning Tietong BOSS System
-- Led on-site customization and delivery for a provincial telecom project.
-- **Tech Stack**: Java/Struts, Informix, Hyperion.
+### Overview
+The Liaoning Tietong BOSS System was Datang Software’s first provincial-level project for Tietong (now part of China Mobile), providing critical support for Liaoning Tietong’s Business and Operations Support Systems (BOSS).
+### Responsibilities
+As Project Manager:
+- Team Building: Assembled a core team at the Beijing headquarters and recruited local staff in Liaoning.
+- Custom Development: Led on-site customized development using the company’s existing software stack.
+- Execution: Oversaw data migration, system integration, and final delivery at the client’s location.
+### Tech Stack
+Java, J2EE, Struts, Tomcat, Weblogic, Informix, Hyperion, JavaScript ...

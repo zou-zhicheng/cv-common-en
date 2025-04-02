@@ -6,7 +6,7 @@ hide:
 
 <!-- https://codecv.top/ -->
 
-# [SONY](https://www.sony-semicon.com/cn/index.html)
+# [SONY](https://www.sony-semicon.com/en/index.html)
 
 ???+ tip "Cloud Principal Engineer / December 2021 - December 2024"
     1. **[AITRIOS](https://www.aitrios.sony-semicon.com/) implementation in China**: Led the migration to Azure China (21Vianet), resolved compliance and service - missing issues, and integrated hardware (Raspberry Pi/ESP32) with the edge AI system.
@@ -24,24 +24,24 @@ hide:
 
 ---
 
-# [IBM](https://www.ibm.com/cn-zh)
+# [IBM](https://www.ibm.com/us-en)
 ???+ tip "Cloud Application Developer / November 2013 - December 2016"
     1. SCO (Smart Cloud Orchestration) is a hybrid cloud developed by IBM's global team based on OpenStack. Main responsibilities included:
-        - Installation: Used tools such as Ansible, Chef, and Bash to integrate various modules of SCO into product packages and conduct relevant verifications.
+        - Installation: Used tools such as Ansible, Chef, and Shell to integrate various modules of SCO into product packages and conduct relevant verifications.
         - Integration: Integrated OpenStack source code, secondary - developed code, IBM internal software such as ZVM, DB2, WebSphere, and external software such as Vmware.
         - Marginal development work on basic components such as Dashboard and Nova.
-    2. [LinuxONE](https://www.ibm.com/cn-zh/linuxone) - Led the team to build a software ecosystem platform based on Linux and OpenStack on System Z.
+    2. [LinuxONE](https://www.ibm.com/us-en/linuxone) - Led the team to build a software ecosystem platform based on Linux and OpenStack on System Z.
 
 ---
 
 # [ATOS](https://atos.net/en/)
 ???+ tip "Senior Application Developer / August 2010 - October 2013"
-    1. Stayed in Grenoble, France, and worked with French colleagues on the research and development of the [Linky](https://particulier.edf.fr/en/home/contract-and-consumption/meter/linky-meter.html) smart grid project of the French power grid (ERDF).
-    2. After returning to China, established a joint - venture company with ZTE for local development and deployment, and promoted the implementation of the smart grid project in the Southern Power Grid (Shenzhen).
+    1. Stayed in Grenoble, France, and worked with French colleagues on development of the [Linky](https://particulier.edf.fr/en/home/contract-and-consumption/meter/linky-meter.html) smart grid project for ERDF(Electricité Réseau Distribution France).
+    2. After returning to China, established a joint-venture company with ZTE for local development and deployment, and promoted the implementation of the smart grid project in the Southern Power Grid (Shenzhen).
 
 ---
 
-# [CIeNT](https://www.cienet.com/zh-hans)
+# [CIeNT](https://www.cienet.com/)
 ???+ tip "Java Developer / December 2007 - July 2010"
     Participated in the research and development of the Product Catalog, an offshore outsourcing project of Comverse (now [Amdocs](https://www.amdocs.com/)). This project is a tool based on Java Swing for managing the basic metadata of the telecommunications BOSS system.
 

@@ -39,7 +39,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 ::: start  
 **Dec 2021 - Dec 2024**  
 :::  
-[**Sony Semiconductor**](https://www.sony-semicon.com/cn/index.html)  
+[**Sony Semiconductor**](https://www.sony-semicon.com/en/index.html)  
 :::  
 **R&D Center**  
 :::  
@@ -95,7 +95,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 ::: start  
 **Dec 2007 - Jun 2009**  
 :::  
-[**Cienet**](https://www.cienet.com/zh-hans)  
+[**Cienet**](https://www.cienet.com/)  
 :::  
 **Comverse (Amdocs)**  
 :::  
@@ -155,12 +155,11 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
   - Transformed the China team from an operations-focused group into a core development team.
   - Received annual commendations from global leadership.
 - Tech Stack
-  - Cloud: Azure, Aliyun, Docker, K8S ...
-  - IaC: ARM / Ansible / Terraform
-  - Python / FastAPI
-  - Angular / Vue
-  - Java / ThingsBoard
-  - SQL Server / MySQL / PostgreSQL / CosmosDB / MongoDB / Kafka / Cassandra / InfluxDB
+  - Cloud: Azure, Alibaba Cloud, Docker, K8S ...
+  - Development: Python, FastAPI, Django, TypeScript, HTML3, CSS3, Angular, Vue, Java
+  - IaC: ARM, Ansible, Terraform
+  - IoT: Azure IoT Hub, ThingsBoard
+  - Data: SQL Server, MySQL, PostgreSQL, CosmosDB, MongoDB, Kafka, Cassandra, InfluxDB
 
 ---
 
@@ -264,11 +263,11 @@ SCO(Smart Cloud Orchestration)
 
 - **Background**: SCO is an IBM hybrid cloud product based on OpenStack.
 - **Responsibilities**
-  - **Installation**: install SCO modules using Ansible, Chef, Bash.  
+  - **Installation**: install SCO modules using Ansible, Chef, Shell.  
   - **Integration**: Integration of OpenStack source code, secondary development code, IBM internal software such as ZVM, DB2, WebSphere, etc., external software such as VMWare, Ctrix.
   - **Development**: Marginal development of other components such as Dashboard, Nova, etc.
 - **Tech Stack** 
-  - Python / Django / Ansible / Chef / Bash
+  - Python / Django / Ansible / Chef / Shell
 
 
 
@@ -276,14 +275,14 @@ SCO(Smart Cloud Orchestration)
 **2016 - 2016**
 
 :::
-[**LinuxONE**](https://www.ibm.com/cn-zh/linuxone)
+[**LinuxONE**](https://www.ibm.com/us-en/linuxone)
 
 :::
 **Cloud Lead**
 
 ::: end
 
-- **Background**: [LinuxONE](https://www.ibm.com/cn-zh/linuxone) attempts to build a cloud ecosystem of regular Linux and OpenStack on IBM SystemZ. 
+- **Background**: [LinuxONE](https://www.ibm.com/us-en/linuxone) attempts to build a cloud ecosystem of regular Linux and OpenStack on IBM SystemZ. 
 - **Responsibilities**
   - Migrate OpenStack to the IBM SystemZ large System so that SystemZ can enjoy the Linux and OpenStack ecosystem.  
   - migrate IBM softwares to LinuxONE, such as SPSS, DB2...
@@ -376,7 +375,7 @@ SCO(Smart Cloud Orchestration)
 - **Responsibilities**
   - Developer in Chifeng, Project lead in Baotou.
 - **Tech Stack** 
-  - Hyperion, JavaScript, Bash, SQL, Oracle
+  - Hyperion, JavaScript, Shell, SQL, Oracle
 
 
 
@@ -409,7 +408,7 @@ SCO(Smart Cloud Orchestration)
 - AZ400: DevOps Engineer Expert  
 
 ### Alibaba Cloud  
-- ACP: Cloud Container Service  
+- Alibaba Cloud Certified Professional : Cloud Container Service  
 
 ### Sony Semiconductor  
 - 2022: Team Collaboration Award  
