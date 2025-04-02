@@ -9,11 +9,14 @@
 ::: start  
 **Sep 2001 - Jul 2005**  
 :::  
-icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`  
-:::  
-**Bachelor of Computer Science and Technology**  
+icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`   
 ::: end  
 
+::: start  
+**Bachelor**  
+:::  
+**Computer Science and Technology**  
+::: end  
 ---
 
 ## Core Competencies  
@@ -116,26 +119,287 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 ---
 
 ## Key Projects  
-### Sony – AITRIOS (Dec 2021 - Dec 2024)  
-**Cloud Tech Lead**  
-- **Overview**: Led the China rollout of Sony’s edge AI ecosystem ([AITRIOS](https://www.aitrios.sony-semicon.com/)), integrating vision sensors, IoT, and multi-cloud platforms.  
-- **Achievements**:  
-  - Migrated backend from Azure Global to Azure China, resolving compliance and service gaps.  
-  - Replaced Azure IoT Hub with customized ThingsBoard and built Angular 18 frontend.  
-  - Reduced cloud costs by 40% via FinOps-driven resource scheduling.  
-- **Tech Stack**: Azure, Alibaba Cloud, Kubernetes, FastAPI, Angular/Vue, Terraform.  
 
-### Creditease – Elephant CMDB (2017-2021)  
-**Project Lead**  
-- **Impact**: Automated asset management for 1,000+ servers and network devices, eliminating Excel-based workflows.  
-- **Tech Stack**: Python/Django, Vue2, Ansible.  
+### [SONY](https://www.sony-semicon.com/en/index.html)
 
-### IBM – SCO & LinuxONE (2013-2016)  
-**Integration Lead**  
-- **SCO**: Deployed hybrid cloud solutions for enterprises using OpenStack and IBM middleware.  
-- **LinuxONE**: Enabled OpenStack on IBM System Z for Linux ecosystem expansion.  
+::: start
+**2021.12 - 2024.12**
+
+:::
+**ATRIOS**
+
+:::
+**Cloud Tech Lead**
+
+::: end
+- **Background**: [AITRIOS](https://www.aitrios.sony-semicon.com/) is an innovative solution from [Sony Semiconductor](https://www.sony-semicon.com/index.html) that leverages Edge Vision AI, IoT, and Cloud technologies to build a revolutionary ecosystem centered around Sony cameras.
+- **Responsibilities**:
+  - **Integration**: Introduced [AITRIOS](https://www.aitrios.sony-semicon.com/) solution from Japan to China:   
+    - Migrated the solution from Azure Global to Azure China (operated by 21Vianet), addressing technical, compliance, security, and service availability challenges.    
+    - Collaborated with hardware and embedded teams to integrate cameras, motherboards (Raspberry Pi, custom versions), ESP32, and embedded software (FreeRTOS, Nuttx) into Azure China.
+  - **Development**
+    - **Frontend**: Led the Chinese team in refactoring the legacy Pro UI with Angular 16 and upgraded it to Angular 18.
+    - **Testing**: Established a frontend testing framework using Playwright.
+    - **Backend**: Redesigned the backend architecture with an abstraction layer to support multi-cloud compatibility (Alibaba Cloud, private cloud) alongside Azure services (Azure Functions, IoT Hub, CosmosDB, etc.). 
+    - **Infrastructure as Code (IaC)**: Transitioned from ARM templates to Python, Ansible, and Terraform for multi-cloud deployment automation.
+    -  eplaced Azure IoT Hub with ThingsBoard and performed customizations.
+  - **Localization**
+    - Gathered requirements from Chinese clients and translated them into technical specifications for global teams.
+    - Developed PoC systems tailored to local needs.
+    - Built a cloud resource management system using Django + Celery + Vue and IaC tools to reduce cloud costs by 40% in Azure China.  
+  - **Management**
+    - Aligned milestones with global teams and ensured on-time delivery in China.
+    - Managed outsourcing teams, defined KPIs, and oversaw technical direction.
+- **Achievements**：
+  - Successfully localized the [AITRIOS](https://www.aitrios.sony-semicon.com/) project in China. 
+  - Transformed the China team from an operations-focused group into a core development team.
+  - Received annual commendations from global leadership.
+- Tech Stack
+  - Cloud: Azure, Aliyun, Docker, K8S ...
+  - IaC: ARM / Ansible / Terraform
+  - Python / FastAPI
+  - Angular / Vue
+  - Java / ThingsBoard
+  - SQL Server / MySQL / PostgreSQL / CosmosDB / MongoDB / Kafka / Cassandra / InfluxDB
 
 ---
+
+### [CreditEase](https://www.creditease.com/)
+When I joined Creditease in 2016, my target is to develop a financial cloud platform based on OpenStack. 
+After organizational changes in 2017, shifted focus to traditional IT operations, leading infrastructure integration and tool development to stabilize systems.
+
+::: start
+**2017 - 2021**
+
+:::
+**CMDB(Elephant)**
+
+:::
+**Project Lead**
+
+::: end
+- **Responsibilities**: 
+  - Develop a CMDB system from scratch to solve information isolated island issue in CreditEase based on understanding about ITSM, ITIL.
+- **Tech Stack** 
+  - Python / Django / Celery / JQuery / Vue2 / ECharts / Ansible
+
+
+::: start
+**2017 - 2021**
+
+:::
+**Monitoring system(Eagle)**
+
+:::
+**Project Lead**
+
+::: end
+- **Responsibilities**
+  - Monitored 1,000+ workplaces nationwide using Raspberry Pi nodes and cloud probes.
+  - Integrated Elasticsearch, Grafana, and ECharts for real-time dashboards.
+- **Tech Stack** 
+  - Python / Django / Celery / Scrapy / RabbitMQ / Vue / Selenium / Prometheus / ElasticSearch / Grafana / Echarts / IPMI
+
+
+
+::: start
+**2019 - 2021**
+
+:::
+**Database Ops System(DBAnt)**
+
+:::
+**Project Lead**
+
+::: end
+
+- **Background**: DBAnt is a unified database operation and maintenance tool for DBAs, developers, and system operations.
+- **Responsibilities**:
+  - Unified management of the life cycle of 2000+ production databases (Oracle/MySQL/Redis).
+  - The design process takes over all data query, publication and export.
+  - Designed pluggable encryption and decryption system to ensure database security, and provided apis, clients, etc., for all data queries of the company.
+  - Visual interface Invokes ansible for database installation, deployment, backup, and recovery.
+  - Use ES for logging and slow log collection, analysis, and suggestions for database optimization.
+  - Prometheus, AlertManager, Grafana Monitor, alert, display, analyze.
+  - Meet Deloitte's internal audit needs.
+- **Tech Stack**
+  - Python / Django / Celery / RabbitMQ / Vue / Ansible / Prometheus / ElasticSearch / Grafana / Echarts
+
+
+
+::: start
+**2020 - 2021**
+
+:::
+**Kubernetes Based PaaS Platform(Spider)**
+
+:::
+**Module owner**
+
+::: end
+
+- **Background**: Creditease began to develop a private cloud based on K8S internally in 2018, which was initially handled by other departments and later merged into the Infrastructure department. With the staff adjustment, I took over part of the development and operation and maintenance work.
+- **Responsibilities**
+  - Fix bugs and maintain server cluster stability.
+  - Connect data in the CMDB(Elephant) and monitoring system(Eagle) to the Spider platform.
+  - Cooperate with and respond to the internal system on the cloud (the original system K8S, microservice) and under the cloud (part of the application services from the public cloud to the private cloud to reduce costs) requirements.
+- **Tech Stack** 
+  - Go / Gin
+  - Java / Spring / Spring Cloud ...
+
+---
+
+### IBM
+
+::: start
+**2013 - 2016**
+
+:::
+SCO(Smart Cloud Orchestration)
+
+:::
+**Installation & Integration Lead**
+
+::: end
+
+- **Background**: SCO is an IBM hybrid cloud product based on OpenStack.
+- **Responsibilities**
+  - **Installation**: install SCO modules using Ansible, Chef, Bash.  
+  - **Integration**: Integration of OpenStack source code, secondary development code, IBM internal software such as ZVM, DB2, WebSphere, etc., external software such as VMWare, Ctrix.
+  - **Development**: Marginal development of other components such as Dashboard, Nova, etc.
+- **Tech Stack** 
+  - Python / Django / Ansible / Chef / Bash
+
+
+
+::: start
+**2016 - 2016**
+
+:::
+[**LinuxONE**](https://www.ibm.com/cn-zh/linuxone)
+
+:::
+**Cloud Lead**
+
+::: end
+
+- **Background**: [LinuxONE](https://www.ibm.com/cn-zh/linuxone) attempts to build a cloud ecosystem of regular Linux and OpenStack on IBM SystemZ. 
+- **Responsibilities**
+  - Migrate OpenStack to the IBM SystemZ large System so that SystemZ can enjoy the Linux and OpenStack ecosystem.  
+  - migrate IBM softwares to LinuxONE, such as SPSS, DB2...
+  - Create a Web Portal to show the LinuxONE ecosystem.
+- **Tech Stack** 
+  - Python / Django / Ansible / Shell
+  - SSH(Struts, Spring, Hibernetes)  
+
+---
+
+### ATOS
+
+::: start
+**2010.08 - 2013.10**
+
+:::
+**Smart Grid**
+
+:::
+**Developer & Integration Lead**
+
+::: end
+
+- **Background**: ATOS Smart Grid Suit (ASGS) is a next generation Smart Grid system for ERDF(Electricité Réseau Distribution France) based on SOA and JavaEE.
+- **Responsibilities**
+  - Based in Grenoble, France, developing core modules together with French colleagues.
+  - System integration, responsible for the integration and verification of smart meters, systems and servers.
+  - Established a joint venture company with ZTE to build the Southern Power Grid (Shenzhen) project, a total of 3 phases of POC, responsible for some localization development work.
+- **Tech Stack** 
+  - Java, JavaEE, OSGi
+  - Weblogic Service Bus  
+
+---
+
+### CIeNT
+
+::: start
+**2007.12 - 2010.07**
+
+:::
+**Product Catalog**
+
+:::
+**Java Developer**
+
+::: end
+
+- **Background**: Comverse(now [Amdocs](https://www.amdocs.com/)), the world's leading telecom support software operator, maintains a number of telecom support systems around the world, all of which require nearly the same metadata. Product Catalog is a unified metadata management software for maintenance, management, and distribution.  
+- **Responsibilities**
+  - Java Developer.
+- **Tech Stack** 
+  - Java Swing
+
+---
+
+### Datang
+
+::: start
+**2005**
+
+:::
+**Billing System**
+
+:::
+**Developer**
+
+::: end
+
+- **Background**: Development of Datang Software's next generation billing system which transform from C/S to B/S.
+- **Responsibilities**
+  - Java Developer.
+- **Tech Stack** 
+  - Java, Struts, J2EE
+  - Oracle, Weblogic
+
+
+
+::: start
+**2006**
+
+:::
+**Business analysis system**
+
+:::
+**Project Lead**
+
+::: end
+
+- **Background**: Based on Hyperion's business intelligence solution, we have built a business analysis system in Chifeng and Baotou Netcom. Through analyzing various source data, we created ETL scripts to clean and integrate data and create business analysis reports, providing support for enterprise business decisions.
+- **Responsibilities**
+  - Developer in Chifeng, Project lead in Baotou.
+- **Tech Stack** 
+  - Hyperion, JavaScript, Bash, SQL, Oracle
+
+
+
+::: start
+**2007**
+
+:::
+**Liaoning Tietong BOSS system**
+
+:::
+**Project Manager**
+
+::: end
+
+- **Background**: This project is the first Tietong project obtained by Datang Software, providing support for the BOSS business of Liaoning Tietong. As project manager, assemble team in Beijing headquarters, recruit staff in Liaoning branch, utilize company's existing software, do custom development, data migration, delivery and integration at customer site.. 
+- **Responsibilities**
+  - Local development
+  - Project manager
+- **Tech Stack** 
+  - Java, Struts, J2EE, Tomcat, Weblogic
+  - Informix
+  - Hyperion, JavaScript
+
 
 ## Certifications & Awards  
 ### Microsoft Azure  

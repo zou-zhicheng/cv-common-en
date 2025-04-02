@@ -4,14 +4,14 @@ hide:
   - toc
 --- -->
 
-# [Sony](https://www.sony-semicon.com/cn/index.html)
+# [SONY](https://www.sony-semicon.com/en/index.html)
 ### Project Overview
 [AITRIOS](https://www.aitrios.sony-semicon.com/) is an innovative solution from [Sony Semiconductor](https://www.sony-semicon.com/index.html) that leverages Edge Vision AI, IoT, and Cloud technologies to build a revolutionary ecosystem centered around Sony cameras.
 
 ### Key Responsibilities
 As the sole Staff Cloud Engineer for Sony Semiconductor in China, my primary responsibilities included:
 #### 1. System Integration
-- Introduced the [AITRIOS](https://www.aitrios.sony-semicon.com/) solution from Japan to China:
+- Introduced [AITRIOS](https://www.aitrios.sony-semicon.com/) solution from Japan to China:
   - Migrated the solution from Azure Global to Azure China (operated by 21Vianet), addressing technical, compliance, security, and service availability challenges.
   - Collaborated with hardware and embedded teams to integrate cameras, motherboards (Raspberry Pi, custom versions), ESP32, and embedded software (FreeRTOS, Nuttx) into Azure China.
 
@@ -48,7 +48,8 @@ As the sole Staff Cloud Engineer for Sony Semiconductor in China, my primary res
 ---
 
 # [Creditease](https://www.creditease.com/)
-Joined Creditease in 2016 to develop a financial cloud platform based on OpenStack. After organizational changes in 2017, shifted focus to traditional IT operations, leading infrastructure integration and tool development to stabilize systems.
+When I joined Creditease in 2016, my target is to develop a financial cloud platform based on OpenStack. 
+After organizational changes in 2017, shifted focus to traditional IT operations, leading infrastructure integration and tool development to stabilize systems.
 
 ## CMDB System (Elephant)
 Developed a CMDB system from scratch to replace manual Excel-based management:
@@ -61,14 +62,24 @@ Developed a CMDB system from scratch to replace manual Excel-based management:
 - **Tech Stack**: Python/Scrapy, Vue/Selenium, Prometheus/Elasticsearch.
 
 ## Database Ops System (DBAnt)
-- Unified management of 2,000+ production databases (Oracle/MySQL/Redis).
-- Automated workflows for queries, deployments, and security.
-- **Tech Stack**: Django/Celery, Vue, Ansible.
+- Unified management of the life cycle of 2000+ production databases (Oracle/MySQL/Redis).
+- The design process takes over all data query, publication and export.
+- Designed pluggable encryption and decryption system to ensure database security, and provided apis, clients, etc., for all data queries of the company.
+- Visual interface Invokes ansible for database installation, deployment, backup, and recovery.
+- Use ES for logging and slow log collection, analysis, and suggestions for database optimization.
+- Prometheus, AlertManager, Grafana Monitor, alert, display, analyze.
+- Meet Deloitte's internal audit needs.
+### Tech Stack
+  - Python / Django / Celery / RabbitMQ / Vue / Ansible / Prometheus / ElasticSearch / Grafana / Echarts
 
 ## K8S-based PaaS Platform (Spider)
-- Maintained and enhanced an internal Kubernetes platform.
-- Integrated CMDB and monitoring systems for end-to-end visibility.
-- **Tech Stack**: Go/Gin, Java/Spring Cloud.
+Creditease began to develop a private cloud based on K8S internally in 2018, which was initially handled by other departments and later merged into the Infrastructure department. With the staff adjustment, I took over part of the development and operation and maintenance work.
+- Fix bugs and maintain server cluster stability.
+- Connect data in the CMDB(Elephant) and monitoring system(Eagle) to the Spider platform.
+- Cooperate with and respond to the internal system on the cloud (the original system K8S, microservice) and under the cloud (part of the application services from the public cloud to the private cloud to reduce costs) requirements.
+### Tech Stack
+  - Go / Gin
+  - Java / Spring / Spring Cloud ...
 
 ## Middleware Operations
 Managed Kafka, RocketMQ, Elasticsearch, and microservices components.
