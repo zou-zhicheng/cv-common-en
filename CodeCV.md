@@ -1,7 +1,7 @@
 # Zhicheng Zou – Cloud Computing Expert & Full-Stack Engineer  
 - icon:phone (+86)186-0138-9410  
 - icon:email zouzhicheng@foxmail.com  
-- icon:github [https://zou-zhicheng.github.io/cv-common/](https://zou-zhicheng.github.io/cv-common/)  
+- icon:github [https://zou-zhicheng.github.io/cv-common-en/](https://zou-zhicheng.github.io/cv-common-en/)  
 
 ---
 
