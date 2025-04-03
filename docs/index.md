@@ -5,9 +5,10 @@
 - Education: Bachelor's degree, School of Computer Science and Technology, Jilin University (2001 - 2005)
 - Work Experience: 20 years
 - Github: [https://github.com/zou-zhicheng](https://github.com/zou-zhicheng)
+- Linkedin: [https://www.linkedin.com/in/zouzhicheng/](https://www.linkedin.com/in/zouzhicheng/)
 - Desired Positions: Architect, Technical Leader, Senior Development Engineer
 - Desired Salary: Pre-tax monthly salary of 40K+, exceptions can be made for companies I particularly like
-- Desired Location: Beijing
+- Desired Location: Beijing, Remote
 
 ---
 
