@@ -51,7 +51,7 @@ After organizational changes in 2017, shifted focus to traditional IT operations
 
 ## CMDB System (Elephant)
 ### Overview
-Around 2017, Creditease relied on manual processes and Excel spreadsheets for infrastructure management, resulting in severe information silos and inefficiencies. There was an urgent need for a CMDB system to centralize IT infrastructure management, improve operational efficiency, reduce risks, and support enterprise IT operations.。    
+Around 2017, Creditease relied on manual processes and Excel spreadsheets for infrastructure management, resulting in severe information silos and inefficiencies. There was an urgent need for a CMDB system to centralize IT infrastructure management, improve operational efficiency, reduce risks, and support enterprise IT operations.    
 ### Features
 - IDC Resource Lifecycle Management: Servers, virtual machines, storage devices, security appliances, spare parts, network segments, network circuits, domain names, DNS, etc.
 - Software Lifecycle Management: Tracking and governance for software assets.
@@ -61,7 +61,8 @@ Around 2017, Creditease relied on manual processes and Excel spreadsheets for in
 - Duty Scheduling System: Automated shift planning and incident escalation.
 - ...
 ### Responsibilities
-Collaborated with cross-functional teams (IDC operations, networking, procurement, finance) to design and develop a CMDB system from scratch. Leveraged ITSM/ITIL best practices and industry references to:
+Collaborated with cross-functional teams (IDC operations, networking, procurement, finance) to design and develop a CMDB system from scratch. Leveraged ITSM/ITIL best practices and industry references to:   
+
 - Define unified data models and workflows for infrastructure assets.
 - Automate resource discovery, inventory tracking, and lifecycle operations.
 - Integrate with existing tools to break down information silos.
@@ -76,7 +77,7 @@ A comprehensive monitoring system was required to ensure service stability and o
 - Data Collection & Storage: Collected server, VM, and network device metrics, stored in ElasticSearch. 
 - Visualization: Real-time dashboards built with Grafana and ECharts for system-wide visibility.  
 - Alerting Engine: Custom rules for proactive incident detection and escalation.  
-- **Workplace Monitoring**:  高Deployed Raspberry Pi terminals across 1,000+ nationwide offices to monitor network health, enabling rapid fault localization and troubleshooting.
+- **Workplace Monitoring**:  Deployed Raspberry Pi terminals across 1,000+ nationwide offices to monitor network health, enabling rapid fault localization and troubleshooting.
 - **Network Check**
   - Extended workplace monitoring by deploying nodes across major cloud providers, achieving APM (Application Performance Monitoring) capabilities comparable to [TingYun](https://www.tingyun.com/).
   - Conducted exploratory commercialization efforts for the solution. 
@@ -134,6 +135,7 @@ Middleware Scope:
 - Microservices Components: Service discovery, API gateways, etc.  
 ### Tech Stack   
 Ansible, Python, Shell
+
 ---
 
 # [IBM](https://www.ibm.com/us-en)
@@ -196,7 +198,7 @@ Java, Struts, J2EE, WebLogic ...
 
 ## Business Intelligence Systems
 ### Overview
-A Hyperion-based business intelligence solution was deployed for China Unicom (formerly Netcom) in Chifeng and Baotou, Inner Mongolia. This operational analytics system integrated diverse data sources through ETL scripting, generated business intelligence reports, and provided critical insights for enterprise decision-making.
+A [Hyperion](https://www.oracle.com/cn/performance-management/hyperion-financial-management/) based business intelligence solution was deployed for China Unicom (formerly Netcom) in Chifeng and Baotou, Inner Mongolia. This operational analytics system integrated diverse data sources through ETL scripting, generated business intelligence reports, and provided critical insights for enterprise decision-making.
 ### Responsibilities
 - Served as core developer during the Chifeng phase.
 - Promoted to project lead for the Baotou implementation.
