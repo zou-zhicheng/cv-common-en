@@ -18,7 +18,7 @@
 - **Architecture Experience**: Led the integration and optimization of multi-cloud environments (Azure China, Alibaba Cloud, private cloud), resulting in a 40% reduction in cloud resource costs.
 
 ### **Full-stack Development and DevOps**
-- **Programming Languages and Frameworks**: Python (Django/FastAPI), Java (Spring), Go, HTML5, CSS3, JavaScript, TypeScript, Angular, Vue.
+- **Programming Languages and Frameworks**: Python (Django/FastAPI), Java (Spring), Go.
 - **Web Development**: Familiar with HTML, CSS, JavaScript, TypeScript, NodeJS, Angular, Vue development and their ecosystems.
 - **Toolchains**: Implemented Infrastructure as Code (IaC) with Ansible/Terraform, and built monitoring systems with Prometheus/ELK/Grafana.
 
