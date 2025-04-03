@@ -1,4 +1,3 @@
-<!-- https://codecv.top/ -->
 # James ZOU – Cloud Computing Expert & Full-Stack Engineer  
 - icon:phone (+86)186-0138-9410  
 - icon:email zouzhicheng@foxmail.com  
