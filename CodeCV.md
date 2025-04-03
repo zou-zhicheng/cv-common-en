@@ -26,17 +26,19 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 
 ## Core Competencies  
 ### **Cloud Computing & Architecture Design**  
-- **Certifications**: Azure (AZ104/AZ204/AZ305/AZ400), Alibaba Cloud ACP Container Certification.  
-- **Technical Expertise**: Full-stack implementation of Azure/Alibaba Cloud solutions, OpenStack/Kubernetes architecture design, and multi-cloud integration (Azure China, Alibaba Cloud, private cloud), reducing cloud costs by 40%.  
-- **Architecture Leadership**: Designed and optimized hybrid cloud systems, IaC workflows (Terraform/Ansible), and edge AI solutions.  
+- **Cloud Certifications**: Azure (AZ104/AZ204/AZ305/AZ400), Alibaba Cloud ACP Container Certification.
+- **Technical Skills**: Full-stack implementation experience in Azure and Alibaba Cloud. Proficient in OpenStack, K8S, microservice architecture design and operation.
+- **Architecture Experience**: Led the integration and optimization of multi-cloud environments (Azure China, Alibaba Cloud, private cloud), resulting in a 40% reduction in cloud resource costs.
 
 ### **Full-Stack Development & DevOps**  
-- **Languages & Frameworks**: Python (Django/FastAPI), Java (Spring/Spring Cloud), Go, Angular/Vue, TypeScript.  
-- **Toolchain**: Built CI/CD pipelines with Playwright, Prometheus/Grafana/ELK for monitoring, and Ansible/Terraform for IaC.  
+- **Programming Languages and Frameworks**: Python (Django/FastAPI), Java (Spring), Go.
+- **Web Development**: Familiar with HTML, CSS, JavaScript, TypeScript, NodeJS, Angular, Vue development and their ecosystems.
+- **Toolchains**: Implemented Infrastructure as Code (IaC) with Ansible/Terraform, and built monitoring systems with Prometheus/ELK/Grafana.
 
 ### **Project Management & Collaboration**  
-- Led cross-functional teams for global projects, managed outsourcing partners, and delivered milestones on schedule.  
-- Translated client requirements into actionable technical specifications, driving product localization and commercialization.  
+- Over 10 years of cross-team management experience, leading architecture design, development, operation, and commercialization from scratch.
+- Able to coordinate global teams to complete core module development, manage outsourcing resources, and improve delivery quality.
+- Have certain pre-sales and after-sales support experience.
 
 
 &nbsp;
