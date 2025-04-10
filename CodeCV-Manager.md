@@ -72,7 +72,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 - **CMDB & Monitoring Systems**: Developed Elephant (CMDB) and Eagle (network monitoring) from scratch, supporting 2,000+ nodes.  
 - **K8S PaaS Platform**: Enhanced stability of internal Kubernetes clusters and integrated OpenTelemetry for end-to-end observability.  
 - **Innovation**: Deployed Raspberry Pi probes nationwide for network troubleshooting, winning internal innovation awards.  
-- **Management**：高峰时管理10+人进行各个项目的开发和运维。
+- **Management**：Lead more than 10 professionals to develop and operate systems.
 
 &nbsp;
 
@@ -85,7 +85,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 :::  
 **Project Manager**  
 ::: end  
-- **[Next Generation Security Operation Center(NGSOC)](https://www.qianxin.com/product/detail/pid/358)**: Joined the team as a developer, was promptly promoted to project manager responsible for leading the customized development and implementation of the "NGSOC" for Qingdao Customs.  
+- **[Next Generation Security Operation Center(NGSOC)](https://www.qianxin.com/product/detail/pid/358)**: Joined the team as a developer, was promptly promoted to project manager, lead a team with more than 10 pprofessionals,  responsible for leading the customized development and implementation of the "NGSOC" for Qingdao Customs.  
 
 &nbsp;
 
@@ -99,7 +99,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 **Cloud Developer**  
 ::: end  
 - **Smart Cloud Orchestrator (SCO)**: Automated deployment of OpenStack-based hybrid cloud solutions using Ansible/Chef. Integrated IBM ZVM, DB2, and VMware.  
-- **LinuxONE**: Ported OpenStack to IBM System Z mainframes and built a web portal for ecosystem visibility.  
+- **LinuxONE**: Lead a team consist of 2 outsourcing contractors and 8 graduate students in Tongji University, ported OpenStack to IBM System Z mainframes and built a web portal for ecosystem visibility.  
 
 &nbsp;
 
@@ -112,7 +112,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 :::  
 **Application Developer**  
 ::: end  
-- **ERDF Linky Smart Grid**: Developed Europe’s largest smart grid system (35M+ meters). Led localization for Southern Power Grid (Shenzhen) POC.  
+- **ERDF Linky Smart Grid**: Developed Europe’s largest smart grid system (35M+ meters). Led a 3 member team to port the solution to Southern Power Grid (Shenzhen).  
 
 &nbsp;
 
@@ -125,7 +125,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 :::  
 **Java Developer**  
 ::: end  
-- **Product Catalog**: Built metadata management tools for telecom BSS/OSS systems using Java Swing.  
+- Built metadata management tools (**Product Catalog**) for telecom BSS/OSS systems using Java Swing.  
 
 &nbsp;
 
@@ -138,8 +138,9 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 :::  
 **Developer**  
 ::: end  
-- **Billing Systems**: Upgraded legacy C/S systems to B/S architecture. Managed Liaoning Tietong BOSS project as PM.  
-
+- **Development**: Developer a B/S archit converged billing system and Business Intelligence System. 
+- **Project Manager**: Established cross-functional teams (10+ FTEs) to execute localized deployment of Liaoning Tietong's BOSS System 
+- **Pre Sales**: Concurrently drove pre-sales engineering initiatives encompassing technical blueprinting and client requirement analysis.
 &nbsp;
 
 
