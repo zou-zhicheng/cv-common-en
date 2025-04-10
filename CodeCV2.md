@@ -30,7 +30,7 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 - **Technical Skills**: Full-stack implementation experience in Azure and Alibaba Cloud. Proficient in OpenStack, K8S, microservice architecture design and operation.
 - **Architecture Experience**: Led the integration and optimization of multi-cloud environments (Azure China, Alibaba Cloud, private cloud), resulting in a 40% reduction in cloud resource costs.
 
-### **Full-Stack Development & DevOps**  
+### **Full-Stack Development**  
 - **Programming Languages and Frameworks**: Python (Django/FastAPI), Java (Spring), Go.
 - **Web Development**: Familiar with HTML, CSS, JavaScript, TypeScript, NodeJS, Angular, Vue development and their ecosystems.
 - **Toolchains**: Implemented Infrastructure as Code (IaC) with Ansible/Terraform, and built monitoring systems with Prometheus/ELK/Grafana.
@@ -47,11 +47,9 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 
 ## Work Experience  
 ::: start  
-**Dec 2021 - Dec 2024**  
+**2021.12 - 2024.12**  
 :::  
-[**Sony Semiconductor**](https://www.sony-semicon.com/en/index.html)  
-:::  
-**R&D Center**  
+[**SONY**](https://www.sony-semicon.com/en/index.html)  
 :::  
 **Cloud Principal Engineer**  
 ::: end  
@@ -65,11 +63,9 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 
 
 ::: start  
-**Dec 2016 - Nov 2021**  
+**2017.01 - 2021.12**  
 :::  
-[**Creditease**](https://www.creditease.com/)  
-:::  
-**Infrastructure Department**  
+[**CreditEase**](https://www.creditease.com/)  
 :::  
 **Architect**  
 ::: end  
@@ -82,9 +78,22 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 
 
 ::: start  
-**Nov 2013 - Dec 2016**  
+**2016.08 - 2016.12**  
 :::  
-**IBM**  
+[**360**](https://www.qianxin.com/)  
+:::  
+**Project Manager**  
+::: end  
+- **[Next Generation Security Operation Center(NGSOC)](https://www.qianxin.com/product/detail/pid/358)**: Joined the team as a developer, was promptly promoted to project manager responsible for leading the customized development and implementation of the "NGSOC" for Qingdao Customs.  
+
+&nbsp;
+
+
+
+::: start  
+**2013.11 - 2016.7**  
+:::  
+[**IBM**](https://www.ibm.com/)  
 :::  
 **Cloud Developer**  
 ::: end  
@@ -96,11 +105,9 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 
 
 ::: start  
-**Aug 2010 - Oct 2013**  
+**2010.08 - 2013.10**  
 :::  
-[**Atos**](https://atos.net/en/)  
-:::  
-**Smart Grid Team**  
+[**ATOS**](https://atos.net/en/)  
 :::  
 **Application Developer**  
 ::: end  
@@ -111,11 +118,9 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 
 
 ::: start  
-**Dec 2007 - Jun 2009**  
+**2007.12 - 2010.07**  
 :::  
-[**Cienet**](https://www.cienet.com/)  
-:::  
-**Comverse (Amdocs)**  
+[**CIeNET**](https://www.cienet.com/)  
 :::  
 **Java Developer**  
 ::: end  
@@ -126,11 +131,9 @@ icon:jilindaxue **Jilin University** `985` `211` `Double First-Class`
 
 
 ::: start  
-**Feb 2005 - Dec 2007**  
+**2005.02 - 2007.12**  
 :::  
 [**Datang Telecom**](https://www.datang.com/)  
-:::  
-**Billing Center**  
 :::  
 **Developer**  
 ::: end  
@@ -286,6 +289,29 @@ After organizational changes in 2017, shifted focus to traditional IT operations
 - **Tech Stack**: Go, Gin, Java, Spring, Spring Cloud ...
 
 &nbsp;
+
+::: start
+**2020 - 2021**
+:::
+**Traditional Middleware Operations**
+:::
+**Module owner**
+::: end
+
+- **Overview**: Following workforce reductions and the centralization of infrastructure management at Creditease, operational responsibility for critical middleware components was transferred to the infrastructure team.
+- **Responsibilities**
+  - Core Operations: Performed foundational tasks such as cluster provisioning, stability assurance, and scaling (up/down).
+  - System Prototyping: Designed a lightweight prototype for unified middleware management, but the system was not finalized or deployed due to organizational changes prior to my departure.
+  Middleware Scope:
+    - Message Queues & Streaming: ZooKeeper, Kafka, RocketMQ, RabbitMQ and etc.
+    - Elasticsearch.
+    - Microservices Components: Service discovery, API gateways, etc.  
+    - ...
+- **Tech Stack**: Go, Gin, Java, Spring, Spring Cloud ...
+
+&nbsp;
+
+
 
 ### IBM
 

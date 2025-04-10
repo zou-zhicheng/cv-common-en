@@ -130,13 +130,29 @@ Following workforce reductions and the centralization of infrastructure manageme
 - Core Operations: Performed foundational tasks such as cluster provisioning, stability assurance, and scaling (up/down).
 - System Prototyping: Designed a lightweight prototype for unified middleware management, but the system was not finalized or deployed due to organizational changes prior to my departure.
 Middleware Scope:
-- Message Queues & Streaming: Kafka, RocketMQ, RabbitMQ and etc.
+- Message Queues & Streaming: ZooKeeper, Kafka, RocketMQ, RabbitMQ and etc.
 - Elasticsearch.
 - Microservices Components: Service discovery, API gateways, etc.  
 ### Tech Stack   
 Ansible, Python, Shell
 
 ---
+
+
+
+# [360](https://www.qianxin.com/)
+## [Next Generation Security Operation Center(NGSOC)](https://www.qianxin.com/product/detail/pid/358)
+### Overview
+NGSOC Collected diverse security data and using various analytical methods to enable continuous cybersecurity posture monitoring.
+### Responsibilities
+- **Developer**: Develop security data integration tool, performing data cleansing and normalization to enable centralized information processing..
+- **Project Manager**: Demonstrated exceptional technical expertise and leadership competencies, earning rapid promotion to Project Manager at Qingdao Customs. Ultimately resigned due to family care priorities after unsuccessful accommodation attempts regarding extended on-site assignments conflicting with childcare responsibilities.
+### Tech Stack
+Pyhton, SQL, Bash ...
+
+---
+
+
 
 # [IBM](https://www.ibm.com/us-en)
 ## Smart Cloud Orchestrator (SCO)
