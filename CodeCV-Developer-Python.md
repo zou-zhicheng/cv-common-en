@@ -328,7 +328,7 @@ NGSOC
 
 
 
-### IBM
+### [IBM](https://www.ibm.com/cn-zh)
 
 ::: start
 **2013 - 2016**
@@ -366,7 +366,7 @@ SCO(Smart Cloud Orchestration)
 
 &nbsp;
 
-### ATOS
+### [ATOS](https://atos.net/en/)
 
 ::: start
 **2010.08 - 2013.10**
@@ -387,7 +387,7 @@ SCO(Smart Cloud Orchestration)
 
 
 
-### CIeNT
+### [CIeNT]((https://www.cienet.com/zh-hans))
 
 ::: start
 **2007.12 - 2010.07**
@@ -405,7 +405,7 @@ SCO(Smart Cloud Orchestration)
 
 
 
-### Datang
+### [Datang](https://www.datang.com/)
 
 ::: start
 **2005 - 2007**
